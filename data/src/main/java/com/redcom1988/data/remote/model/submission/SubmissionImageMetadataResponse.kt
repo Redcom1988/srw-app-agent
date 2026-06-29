@@ -7,5 +7,5 @@ data class SubmissionImageMetadataResponse(
     val id: Int,
     val trashType: String,
     val amount: Int,
-    val points: Int
+    val points: Int = 0
 )
